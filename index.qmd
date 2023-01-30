@@ -10,13 +10,13 @@ Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribu
 
 ## What is it?
 
-A full-day datathon where teams will work together to analyse a HIV medications dataset.
+A full-day datathon where teams will work together to analyse a HIV medications dataset. Participants will develop a full data science pipeline---from research question to analytic output---with prizes awarded for the best submission. 
 
 ## When is it?
 
--   **Friday 19th May, 3pm-5pm:** Online introductory session
+-   **Friday 19th May**, 3pm-5pm: Online introductory session
 
--   **Friday 26th May, 8am-5pm:** Main event
+-   **Friday 26th May**, 8am-5pm: Main event
 
 ## Where is it?
 
@@ -28,11 +28,11 @@ The UNSW Kensington Campus, [Electrical Engineering Building (K-G17), Room G03](
 
 ## Who can participate?
 
-UNSW Health Data Science students.
+UNSW Health Data Science students and graduates.
 
 ## The data
 
-Participants will use the Antiretroviral Therapy in HIV Dataset synthetic dataset developed by a team at the CBDRH ([healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/){target="_blank"}). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, which make similar combination of drugs ineffective
+Participants will use the Antiretroviral Therapy in HIV Dataset synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/){target="_blank"}). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
 
 ## The event
 

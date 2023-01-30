@@ -1,7 +1,0 @@
----
-title: "CBDRH Health Data Science Datathon 2023"
----
-
-## About 
-
-The UNSW Health Data Science datathon is an initiative launched under the [Health 25 strategy](https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf){target="_blank"}

@@ -13,7 +13,7 @@ website:
         icon: info-circle
         menu:
           - text: Information for sponsors
-            href: info-spon.qmd
+            href: sponsor-info.qmd
   page-footer:
     center: © UNSW 2023
 
