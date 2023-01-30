@@ -1,10 +1,59 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "cbdrh-hds-datathon-2023",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "objectID": "index.html#what-is-it",
+    "href": "index.html#what-is-it",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "What is it?",
+    "text": "What is it?\nA full-day datathon where teams will work together to analyse a HIV medications dataset."
+  },
+  {
+    "objectID": "index.html#when-is-it",
+    "href": "index.html#when-is-it",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "When is it?",
+    "text": "When is it?\n\nFriday 19th May, 3pm-5pm: Online introductory session\nFriday 26th May, 8am-5pm: Main event"
+  },
+  {
+    "objectID": "index.html#where-is-it",
+    "href": "index.html#where-is-it",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Where is it?",
+    "text": "Where is it?\nThe UNSW Kensington Campus, Electrical Engineering Building (K-G17), Room G03."
+  },
+  {
+    "objectID": "index.html#who-can-participate",
+    "href": "index.html#who-can-participate",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Who can participate?",
+    "text": "Who can participate?\nUNSW Health Data Science students."
+  },
+  {
+    "objectID": "index.html#the-data",
+    "href": "index.html#the-data",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "The data",
+    "text": "The data\nParticipants will use the Antiretroviral Therapy in HIV Dataset synthetic dataset developed by a team at the CBDRH (healthgym.ai/antiviral-hiv). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body’s immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, which make similar combination of drugs ineffective"
+  },
+  {
+    "objectID": "index.html#the-event",
+    "href": "index.html#the-event",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "The event",
+    "text": "The event\nStudents will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts."
+  },
+  {
+    "objectID": "index.html#registration",
+    "href": "index.html#registration",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Registration",
+    "text": "Registration\nTo register, fill out the expression of interest form by 31st March. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Contact",
+    "text": "Contact\nFor questions or information please contact Dr Oscar Perez Concha."
   },
   {
     "objectID": "about.html",

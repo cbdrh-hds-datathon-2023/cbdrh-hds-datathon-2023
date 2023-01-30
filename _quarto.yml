@@ -3,18 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "cbdrh-hds-datathon-2023"
+  title: ""
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+        icon: house
+      - text: About
+        icon: info-circle
+        menu:
+          - text: Information for sponsors
+            href: info-spon.qmd
+  page-footer:
+    center: © UNSW 2023
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
-
-editor: visual
-
