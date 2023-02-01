@@ -9,11 +9,10 @@ website:
       - text: Home
         href: index.qmd
         icon: house
-      - text: About
+      - text: Information for sponsors
         icon: info-circle
-        menu:
-          - text: Information for sponsors
-            href: sponsor-info.qmd
+        href: sponsor-info.qmd
+
   page-footer:
     center: © UNSW 2023
 

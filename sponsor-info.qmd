@@ -2,6 +2,13 @@
 title: "Information for sponsors"
 ---
 
+![](images/artificial-intelligence-g80ce22bfc_1920.jpg)
+
+::: {style="font-size:0.6em;"}
+Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3706562">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3706562">Pixabay</a>
+:::
+
+
 ## About
 
 The CBDRH Health Data Science datathon is an initiative launched under the [Health 25 strategy](https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf){target="_blank"} The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry.
@@ -16,6 +23,6 @@ As an event sponsor you can
 
 * Meet and engage ambitious and talented students to undertake a research dissertation project at your organisation
 
-## How do I become a sponsor?
+## How do I become a sponsor for future events?
 
-To find out more about sponsoring a future datathon event please contact <a href="mailto:o.perezconcha@unsw.edu.au">Dr Oscar Perez Concha</a>.
+We are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact <a href="mailto:o.perezconcha@unsw.edu.au">Dr Oscar Perez Concha</a>.

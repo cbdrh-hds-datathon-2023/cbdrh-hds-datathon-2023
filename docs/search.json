@@ -4,7 +4,7 @@
     "href": "sponsor-info.html",
     "title": "Information for sponsors",
     "section": "",
-    "text": "The CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
+    "text": "![images/artificial-intelligence-g80ce22bfc_1920.jpg)"
   },
   {
     "objectID": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
@@ -18,7 +18,7 @@
     "href": "sponsor-info.html#how-do-i-become-a-sponsor",
     "title": "Information for sponsors",
     "section": "How do I become a sponsor?",
-    "text": "How do I become a sponsor?\nTo find out more about sponsoring a future datathon event please contact Dr Oscar Perez Concha."
+    "text": "How do I become a sponsor?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
   },
   {
     "objectID": "index.html#what-is-it",
@@ -46,14 +46,14 @@
     "href": "index.html#who-can-participate",
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "Who can participate?",
-    "text": "Who can participate?\nUNSW Health Data Science students and graduates."
+    "text": "Who can participate?\n\nUNSW Health Data Science students and graduates.\nUNSW Clinical Artificial Intelligence students and graduates."
   },
   {
     "objectID": "index.html#the-data",
     "href": "index.html#the-data",
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "The data",
-    "text": "The data\nParticipants will use the Antiretroviral Therapy in HIV Dataset synthetic dataset developed by a team at the CBDRH (see healthgym.ai/antiviral-hiv). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body’s immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective."
+    "text": "The data\nParticipants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see healthgym.ai/antiviral-hiv). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body’s immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective."
   },
   {
     "objectID": "index.html#the-event",
@@ -67,7 +67,7 @@
     "href": "index.html#registration",
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "Registration",
-    "text": "Registration\nTo register, fill out the expression of interest form by 31st March. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited."
+    "text": "Registration\nTo register, fill out the expression of interest form by 10th March. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited."
   },
   {
     "objectID": "index.html#contact",
@@ -82,5 +82,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#information-for-sponsors",
+    "href": "index.html#information-for-sponsors",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Information for sponsors",
+    "text": "Information for sponsors\n\nAbout\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry.\n\n\nWhat are the advantages of being a sponsor?\nAs an event sponsor you can\n\nPropose research questions to be addressed\nProvide datasets to be analysed\nMeet and engage ambitious and talented students to undertake a research dissertation project at your organisation\n\n\n\nHow do I become a sponsor?\nTo find out more about sponsoring a future datathon event please contact Dr Oscar Perez Concha."
+  },
+  {
+    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
+    "href": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
+    "title": "Information for sponsors",
+    "section": "How do I become a sponsor for future events?",
+    "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
+  },
+  {
+    "objectID": "sponsor-info.html#about",
+    "href": "sponsor-info.html#about",
+    "title": "Information for sponsors",
+    "section": "About",
+    "text": "About\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
   }
 ]

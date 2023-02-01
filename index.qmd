@@ -28,11 +28,12 @@ The UNSW Kensington Campus, [Electrical Engineering Building (K-G17), Room G03](
 
 ## Who can participate?
 
-UNSW Health Data Science students and graduates.
+* UNSW Health Data Science students and graduates. 
+* UNSW Clinical Artificial Intelligence students and graduates. 
 
 ## The data
 
-Participants will use the Antiretroviral Therapy in HIV Dataset synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/){target="_blank"}). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
+Participants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/){target="_blank"}). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
 
 ## The event
 
@@ -40,8 +41,9 @@ Students will work together in teams of four to propose a research question and 
 
 ## Registration
 
-To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM){target="_blank"} by 31st March. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited.
+To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM){target="_blank"} by **10th March**. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited.
 
 ## Contact
 
 For questions or information please contact <a href="mailto:o.perezconcha@unsw.edu.au">Dr Oscar Perez Concha</a>.
+
