@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "sponsor-info.html",
-    "href": "sponsor-info.html",
+    "objectID": "sponsor-info.html#about",
+    "href": "sponsor-info.html#about",
     "title": "Information for sponsors",
-    "section": "",
-    "text": "![images/artificial-intelligence-g80ce22bfc_1920.jpg)"
+    "section": "About",
+    "text": "About\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
   },
   {
     "objectID": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
@@ -14,11 +14,11 @@
     "text": "What are the advantages of being a sponsor?\nAs an event sponsor you can\n\nPropose research questions to be addressed\nProvide datasets to be analysed\nMeet and engage ambitious and talented students to undertake a research dissertation project at your organisation"
   },
   {
-    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor",
-    "href": "sponsor-info.html#how-do-i-become-a-sponsor",
+    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
+    "href": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
     "title": "Information for sponsors",
-    "section": "How do I become a sponsor?",
-    "text": "How do I become a sponsor?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
+    "section": "How do I become a sponsor for future events?",
+    "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
   },
   {
     "objectID": "index.html#what-is-it",
@@ -32,14 +32,7 @@
     "href": "index.html#when-is-it",
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "When is it?",
-    "text": "When is it?\n\nFriday 19th May, 3pm-5pm: Online introductory session\nFriday 26th May, 8am-5pm: Main event"
-  },
-  {
-    "objectID": "index.html#where-is-it",
-    "href": "index.html#where-is-it",
-    "title": "CBDRH Health Data Science Datathon 2023",
-    "section": "Where is it?",
-    "text": "Where is it?\nThe UNSW Kensington Campus, Electrical Engineering Building (K-G17), Room G03."
+    "text": "When is it?\n\nFriday 19th May, 3pm-5pm: Online introductory session\n\nRecordings will be made available for people who can’t make this session, although attendance is strongly encouraged\n\nFriday 26th May, 8am-5pm: Main event"
   },
   {
     "objectID": "index.html#who-can-participate",
@@ -49,6 +42,20 @@
     "text": "Who can participate?\n\nUNSW Health Data Science students and graduates.\nUNSW Clinical Artificial Intelligence students and graduates."
   },
   {
+    "objectID": "index.html#is-it-online-or-in-person",
+    "href": "index.html#is-it-online-or-in-person",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Is it online or in-person?",
+    "text": "Is it online or in-person?\nThe event will be in-person at UNSW, however there is also capacity for a limited number of online teams to compete, for those who wish to participate but can not make it to campus. The EOI form (linked below) includes an option to indicate whether you wish to attend online or in-person.\nA limited number of travel bursaries of up to $300 are available to support participants who wish to attend the event but are travelling from outside of Sydney. The EOI form (linked below) includes an option to indicate whether you wish to apply for a travel bursary. Applicants will be asked to provide their enrolment status and the destination from where they will be travelling from."
+  },
+  {
+    "objectID": "index.html#where-is-it",
+    "href": "index.html#where-is-it",
+    "title": "CBDRH Health Data Science Datathon 2023",
+    "section": "Where is it?",
+    "text": "Where is it?\nThe UNSW Kensington Campus, Electrical Engineering Building (K-G17), Room G03\n\n\nMap by MazeMap\nRoom G03 is wheelchair accessible and ventilated with air conditioning. More information is available online here.\nSee the UNSW website for more information on how to get to and from campus: inside.unsw.edu.au/campus-life/travel-options-get-and-unsw"
+  },
+  {
     "objectID": "index.html#the-data",
     "href": "index.html#the-data",
     "title": "CBDRH Health Data Science Datathon 2023",
@@ -56,11 +63,11 @@
     "text": "The data\nParticipants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see healthgym.ai/antiviral-hiv). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body’s immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective."
   },
   {
-    "objectID": "index.html#the-event",
-    "href": "index.html#the-event",
+    "objectID": "index.html#the-datathon",
+    "href": "index.html#the-datathon",
     "title": "CBDRH Health Data Science Datathon 2023",
-    "section": "The event",
-    "text": "The event\nStudents will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts."
+    "section": "The datathon",
+    "text": "The datathon\n\nThe online introductory session (Friday 19th May)\nThis is a chance to start interacting with your team, learn a bit more about the dataset and start thinking about potential research questions. Guest experts will give introductory talks on:\n\nThe Antiretroviral Therapy in HIV synthetic dataset\nHIV medications and potential research questions\n\nTeam membership will be confirmed before the online introductory event and teams will be given a mini-activity to complete in the week leading up to the main event.\n\n\nThe main event (Friday 26th May)\nParticipants will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team will present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts.\nLunch and morning tea and coffee will be provided for in-person participants. Dietary requirements can be noted in the EOI form."
   },
   {
     "objectID": "index.html#registration",
@@ -74,7 +81,7 @@
     "href": "index.html#contact",
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "Contact",
-    "text": "Contact\nFor questions or information please contact Dr Oscar Perez Concha."
+    "text": "Contact\nFor questions, information or accessibility queries please contact Dr Oscar Perez Concha. Accessibilty requirements can also be noted in the EOI form.\n\n\nMenú del día\n\n\nTo be confirmed"
   },
   {
     "objectID": "about.html",
@@ -82,26 +89,5 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html#information-for-sponsors",
-    "href": "index.html#information-for-sponsors",
-    "title": "CBDRH Health Data Science Datathon 2023",
-    "section": "Information for sponsors",
-    "text": "Information for sponsors\n\nAbout\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry.\n\n\nWhat are the advantages of being a sponsor?\nAs an event sponsor you can\n\nPropose research questions to be addressed\nProvide datasets to be analysed\nMeet and engage ambitious and talented students to undertake a research dissertation project at your organisation\n\n\n\nHow do I become a sponsor?\nTo find out more about sponsoring a future datathon event please contact Dr Oscar Perez Concha."
-  },
-  {
-    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
-    "href": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
-    "title": "Information for sponsors",
-    "section": "How do I become a sponsor for future events?",
-    "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
-  },
-  {
-    "objectID": "sponsor-info.html#about",
-    "href": "sponsor-info.html#about",
-    "title": "Information for sponsors",
-    "section": "About",
-    "text": "About\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
   }
 ]

@@ -15,35 +15,69 @@ A full-day datathon where teams will work together to analyse a HIV medications 
 ## When is it?
 
 -   **Friday 19th May**, 3pm-5pm: Online introductory session
+<div style = "font-size: 0.8em; font-weight:100;">
+_Recordings will be made available for people who can't make this session, although attendance is strongly encouraged_
+</div>
 
 -   **Friday 26th May**, 8am-5pm: Main event
-
-## Where is it?
-
-The UNSW Kensington Campus, [Electrical Engineering Building (K-G17), Room G03](https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg/k-g17-g03-electrical-engineering-g03){target="_blank"}.
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.905712724223!2d151.2294626156775!3d-33.917826180642614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae9b690cb686f09f!2sSchool%20of%20Computer%20Science%20and%20Engineering!5e0!3m2!1sen!2sau!4v1675046472664!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-
-</iframe>
 
 ## Who can participate?
 
 * UNSW Health Data Science students and graduates. 
 * UNSW Clinical Artificial Intelligence students and graduates. 
 
+## Is it online or in-person?
+
+The event will be in-person at UNSW, however there is also capacity for a limited number of online teams to compete, for those who wish to participate but can not make it to campus. The EOI form (linked below) includes an option to indicate whether you wish to attend online or in-person. 
+
+A limited number of travel bursaries of up to $300 are available to support participants who wish to attend the event but are travelling from outside of Sydney. The EOI form (linked below) includes an option to indicate whether you wish to apply for a travel bursary. Applicants will be asked to provide their enrolment status and the destination from where they will be travelling from.  
+
+## Where is it?
+
+The UNSW Kensington Campus, [Electrical Engineering Building (K-G17)](https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg), Room G03
+
+<iframe width="700" height="520" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://use.mazemap.com/embed.html#v=1&config=unsw&zlevel=1&center=151.231616,-33.917484&zoom=17&campusid=111&sharepoitype=poi&sharepoi=1000919795&utm_medium=iframe" allow="geolocation"></iframe>
+<a href="https://www.mazemap.com/">Map by MazeMap</a>
+
+Room G03 is wheelchair accessible and ventilated with air conditioning. More information is available online [here](https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg/k-g17-g03-electrical-engineering-g03).
+
+See the UNSW website for more information on how to get to and from campus: [inside.unsw.edu.au/campus-life/travel-options-get-and-unsw](https://www.inside.unsw.edu.au/campus-life/travel-options-get-and-unsw) 
+
+	
 ## The data
 
-Participants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/){target="_blank"}). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
+Participants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/)). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
 
-## The event
+## The datathon
 
-Students will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts.
+### The online introductory session (Friday 19th May)
+
+This is a chance to start interacting with your team, learn a bit more about the dataset and start thinking about potential research questions. Guest experts will give introductory talks on: 
+
+1. The Antiretroviral Therapy in HIV synthetic dataset 
+1. HIV medications and potential research questions
+
+Team membership will be confirmed before the online introductory event and teams will be given a mini-activity to complete in the week leading up to the main event. 
+
+
+### The main event (Friday 26th May)
+
+Participants will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team will present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts.
+
+Lunch and morning tea and coffee will be provided for in-person participants. Dietary requirements can be noted in the EOI form.
 
 ## Registration
 
-To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM){target="_blank"} by **10th March**. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited.
+To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM) by **10th March**. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited.
 
 ## Contact
 
-For questions or information please contact <a href="mailto:o.perezconcha@unsw.edu.au">Dr Oscar Perez Concha</a>.
+For questions, information or accessibility queries please contact <a href="mailto:o.perezconcha@unsw.edu.au">Dr Oscar Perez Concha</a>. Accessibilty requirements can also be noted in the EOI form. 
+
+::: {.oscar}
+
+<h2>Menú del día</h2>
+<p>To be confirmed</p>
+
+:::
 

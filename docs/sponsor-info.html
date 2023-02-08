@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>The CBDRH Health Data Science datathon is an initiative launched under the <a href="https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf" target="_blank">Health 25 strategy</a> The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine &amp; Health students, government, and industry.</p>
+<p>The CBDRH Health Data Science datathon is an initiative launched under the <a href="https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf">Health 25 strategy</a> The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine &amp; Health students, government, and industry.</p>
 </section>
 <section id="what-are-the-advantages-of-being-a-sponsor" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-the-advantages-of-being-a-sponsor">What are the advantages of being a sponsor?</h2>
@@ -401,6 +401,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

@@ -11,7 +11,7 @@ Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribu
 
 ## About
 
-The CBDRH Health Data Science datathon is an initiative launched under the [Health 25 strategy](https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf){target="_blank"} The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry.
+The CBDRH Health Data Science datathon is an initiative launched under the [Health 25 strategy](https://www.unsw.edu.au/content/dam/pdfs/unsw-adobe-websites/medicine/faculty/2022-06-Health-25-Medicine-Health-Strategy.pdf) The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry.
 
 ## What are the advantages of being a sponsor?
 
