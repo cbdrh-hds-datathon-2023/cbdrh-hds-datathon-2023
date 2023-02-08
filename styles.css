@@ -3,3 +3,12 @@
 .oscar {
   color: #002b36;
 }
+
+
+.oscar > h2 {
+  color: #002b36;
+}
+
+.oscar > p {
+  color: #002b36;
+}
