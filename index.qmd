@@ -36,7 +36,7 @@ A limited number of travel bursaries of up to $300 are available to support part
 
 The UNSW Kensington Campus, [Electrical Engineering Building (K-G17)](https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg), Room G03
 
-<iframe width="700" height="520" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://use.mazemap.com/embed.html#v=1&config=unsw&zlevel=1&center=151.231616,-33.917484&zoom=17&campusid=111&sharepoitype=poi&sharepoi=1000919795&utm_medium=iframe" allow="geolocation"></iframe>
+<iframe width="100%" height="500px" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://use.mazemap.com/embed.html#v=1&config=unsw&zlevel=1&center=151.231616,-33.917484&zoom=17&campusid=111&sharepoitype=poi&sharepoi=1000919795&utm_medium=iframe" allow="geolocation"></iframe>
 <a href="https://www.mazemap.com/">Map by MazeMap</a>
 
 Room G03 is wheelchair accessible and ventilated with air conditioning. More information is available online [here](https://www.learningenvironments.unsw.edu.au/physical-spaces/electrical-engineering-bldg/k-g17-g03-electrical-engineering-g03).
