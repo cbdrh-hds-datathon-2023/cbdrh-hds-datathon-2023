@@ -46,7 +46,7 @@ See the UNSW website for more information on how to get to and from campus: [ins
 	
 ## The data
 
-Participants will use the Antiretroviral Therapy in HIV synthetic dataset developed by a team at the CBDRH (see [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/)). Human Immunodeficiency Viruses (HIV) are viruses that attack the human body's immune system. Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
+Participants will use a synthetic dataset containing detailed drug regimen information and viral loads for patients with Human Immunodeficiency Virus (HIV). Currently, the only effective treatment for HIV is antiretroviral therapy, which involves life-long administration of combinations of these drugs. This medication stops the virus from multiplying by targeting different stages of viral replication. However, continual use of the same combinations of drugs may lead to the formation of drug-resistant viral strains, rendering similar combinations of drugs ineffective.
 
 ## The datathon
 
@@ -62,13 +62,13 @@ Team membership will be confirmed before the online introductory event and teams
 
 ### The main event (Friday 26th May)
 
-Participants will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team will present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts.
+Participants will work together in teams of four to propose a research question and develop and implement a data science pipeline to address the research question. There is no restriction on choice of software or type of research questions. The final product could be an interactive visualisation, a predictive analysis, a risk factor analysis, time series analysis, etc. Experts in HIV medications and data analysis will be in the room to help participants develop their research question and solution. At the end of the day, each team will present their research question and solution. Prizes will be awarded to the best submissions, evaluated by a panel of experts. Selected submissions may be included in a showcase and published on the CBDRH website or other suitable platform. 
 
-Lunch and morning tea and coffee will be provided for in-person participants. Dietary requirements can be noted in the EOI form.
+Lunch and morning tea and coffee will be provided for in-person participants. Dietary requirements can be noted in the EOI form. 
 
 ## Registration
 
-To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM) by **10th March**. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with another student, please note this on the form. Places are limited.
+To register, fill out the [expression of interest form](https://forms.office.com/r/Ya4dL7iiPM) by **31st March**. Registration is for individuals and teams will be formed by the organisers. If you want to be on a team with one or more other students, please note this on the form. Places are limited.
 
 ## Contact
 
