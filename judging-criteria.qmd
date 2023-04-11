@@ -1,0 +1,27 @@
+---
+title: "Judging criteria"
+---
+
+Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:
+
+1. Research Question
+2. Analysis 
+3. Communicating results
+
+The table below breaks down some of the things you should consider for each domain.
+
++------------------------+--------+---------------------------------------------------+
+| Domain                 | Weight | Things to consider                                |
++========================+========+===================================================+
+| Research question      | ⅓      | - Clearly expressed and focused                   |
+|                        |        | - Operationalisable                               |
+|                        |        | - Achievable in the available time                |
++------------------------+--------+---------------------------------------------------+
+| Analysis               | ⅓      | - Data cleaning and preparation                   |
+|                        |        | - Choice and implementation of analytic method    |
+|                        |        | - Code and reproducibility                        |
++------------------------+--------+---------------------------------------------------+
+| Communicating results  | ⅓      | - Presentation of results (tables/visualisations) |
+|                        |        | - Oral presentation                               |
+|                        |        | - Understanding translation potential             |
++------------------------+--------+---------------------------------------------------+

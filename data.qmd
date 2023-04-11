@@ -1,0 +1,13 @@
+---
+title: "Data"
+---
+
+You will be analysing the Antiretroviral Therapy in HIV dataset from [HealthGym.ai](https://healthgym.ai/).
+
+The Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.
+
+The Anteretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV. 
+
+You can learn more and download the dataset at [healthgym.ai/antiviral-hiv](https://healthgym.ai/antiviral-hiv/).
+
+You are welcome to start exploring the data straightaway! The presentations at the [online information session](schedule.html) will help you understand the data further and provide inspiration for intersting research questions that could be addressed with the data.

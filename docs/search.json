@@ -21,6 +21,13 @@
     "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
   },
   {
+    "objectID": "judging-criteria.html",
+    "href": "judging-criteria.html",
+    "title": "Judging criteria",
+    "section": "",
+    "text": "Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:\n\nResearch Question\nAnalysis\nCommunicating results\n\nThe table below breaks down some of the things you should consider for each domain.\n\n\n\n\n\n\n\n\nDomain\nWeight\nThings to consider\n\n\n\n\nResearch question\n⅓\n\nClearly expressed and focused\nOperationalisable\nAchievable in the available time\n\n\n\nAnalysis\n⅓\n\nData cleaning and preparation\nChoice and implementation of analytic method\nCode and reproducibility\n\n\n\nCommunicating results\n⅓\n\nPresentation of results (tables/visualisations)\nOral presentation\nUnderstanding translation potential"
+  },
+  {
     "objectID": "index.html#what-is-it",
     "href": "index.html#what-is-it",
     "title": "CBDRH Health Data Science Datathon 2023",
@@ -82,5 +89,40 @@
     "title": "CBDRH Health Data Science Datathon 2023",
     "section": "Contact",
     "text": "Contact\nFor questions, information or accessibility queries please contact Dr Oscar Perez Concha. Accessibilty requirements can also be noted in the EOI form.\n\n\nMenú del día\n\n\nTo be confirmed"
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "The organisers of the CBDRH Datathon are committed to providing a event that is welcoming and safe for all participants, is free from discrimination and harassment, and where all participants are treated with dignity and respect. Adherence to this Code of Conduct is a requirement for all event participants, and covers all aspects of the datathon, including online and in-person spaces, the pre-event online information session, the datathon event, any social events and all communication, including that via email or social media associated with the event. Unacceptable behaviour includes, but is not limited to:\n\nHarassment, including verbal comments relating to gender, sexual orientation, disability, race, ethnicity, religion, age, national origin, gender identity or expression, or physical appearance.\nInappropriate and/or unwanted physical contact.\nUnwelcome sexual attention, which can include inappropriate questions, jokes, or comments of a sexual nature or repeatedly asking for dates or contact information.\nUnwanted photography or recording.\nDiscriminatory or sexual images in public spaces.\nSustained or wilful disruption of talks or other events.\n\nTo report violations of this Code of Conduct, alert a member of the Response Team (names and contact details listed below). Reports may be made by people subject to, or witnesses of, unacceptable behaviour.\n\n\n\n\n\n\nCode of Conduct Response Team\n\n\n\n\nDr Sanja Lujic, Lecturer, Centre for Big Data Research in Health, UNSW Sydney s.lujic@unsw.edu.au.\nDr Oscar Perez Concha, Senior Lecturer, Centre for Big Data Research in Health, UNSW Sydney o.perezconcha@unsw.edu.au.\n\n\n\nIf an individual participates in unacceptable behaviour, the Response Team may take lawful action that they deem appropriate, including asking the individual to stop or removal of the individual from the event. Reports of unacceptable behaviour may be communicated to UNSW Sydney.\nAll efforts will be made to protect the anonymity of persons reporting violations. Persons reporting violations of the Code may request that their report remain confidential and that no further action be taken. However, if the Code of Conduct Response Team deems it necessary for the safety of event attendees, action will be taken, including referral of the report to UNSW Sydney.\nThis Code of Conduct is designed to ensure that this event can be enjoyed by all participants. We hope you have an inspiring and enjoyable time.\n\n\n\n\n\n\nNote\n\n\n\nThis code of conduct has been adapted from the Statistical Society of Australia (SSA) Code of Conduct template.\nUNSW Sydney students should also be aware of the Student Code of Conduct in particular the sections pertaining to plagiarism. If you use code or other intellectual property as part of your datathon submission, the earlier work should be clearly referenced, just as you would do for an assessment."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Note\n\n\n\nThe schedule is subject to change. A Microsoft Teams Meeting link will be circulated in advance of both sessions."
+  },
+  {
+    "objectID": "schedule.html#online-information-session-online-only",
+    "href": "schedule.html#online-information-session-online-only",
+    "title": "Schedule",
+    "section": "Online information session (Online only)",
+    "text": "Online information session (Online only)\nFriday, May 19, 2023: 15:00 - 17:00 AEST\n\n\n\n\n\n\n\n15:00 - 15:10\nWelcome and introductions (Dr Oscar Perez Concha, CBDRH)\n\n\n15:10 - 15:35\nThe Health Gym and the HIV Medications dataset (Dr Nic Kuo, CBDRH)\n\n\n15:35 - 16:00\nHIV Medications research in practice (Dr Juliana de Oliveira Costa, School of Population Health)\n\n\n16:00 - 16:15\nDatathon rules and plan for the day (Dr Oscar Perez Concha, CBDRH)\n\n\n16:15 - 17:00\nQuestions"
+  },
+  {
+    "objectID": "schedule.html#datathon-hybrid",
+    "href": "schedule.html#datathon-hybrid",
+    "title": "Schedule",
+    "section": "Datathon (Hybrid)",
+    "text": "Datathon (Hybrid)\nFriday, May 26, 2023: 08:00 - 17:00 AEST\n\n\n\n\n\n\n\n08:00 - 08:30\nRegistration\n\n\n08:30 - 09:00\nWelcome and introduction to domain experts\n\n\n09:00 - 12:00\nTeams work on project\n\n\n12:00 - 12:30\nLunch\n\n\n12:30 - 15:00\nTeams work on project\n\n\n15:00 - 16:15\nPresentations (7 mins presentation + 3 mins questions per team)\n\n\n16:15 - 16:45\nJury deliberation and drinks reception\n\n\n16:45 - 17:00\nAwards and closing"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "You will be analysing the Antiretroviral Therapy in HIV dataset from HealthGym.ai.\nThe Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.\nThe Anteretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV.\nYou can learn more and download the dataset at healthgym.ai/antiviral-hiv.\nYou are welcome to start exploring the data straightaway! The presentations at the online information session will help you understand the data further and provide inspiration for intersting research questions that could be addressed with the data."
   }
 ]
