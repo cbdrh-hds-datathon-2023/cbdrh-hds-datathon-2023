@@ -9,6 +9,19 @@ website:
       - text: Home
         href: index.qmd
         icon: house
+      - text: Schedule
+        icon: clock
+        href: schedule.qmd
+      - text: Data
+        icon: code
+        href: data.qmd
+      - text: Judging Criteria
+        icon: trophy
+        href: judging-criteria.qmd
+      - text: Code of conduct
+        icon: heart
+        href: code-of-conduct.qmd
+    right:
       - text: Information for sponsors
         icon: info-circle
         href: sponsor-info.qmd
@@ -21,7 +34,7 @@ format:
     css: styles.css
     theme:
       dark: solar
-      light: sandstone
+      light: [sandstone, theme-dark.scss]
     toc: true
     link-external-icon: true
     link-external-newwindow: true

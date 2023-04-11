@@ -1,0 +1,37 @@
+---
+title: "Code of conduct"
+---
+
+The organisers of the CBDRH Datathon are committed to providing a event that is welcoming and safe for all participants, is free from discrimination and harassment, and where all participants are treated with dignity and respect. Adherence to this Code of Conduct is a requirement for all event participants, and covers all aspects of the datathon, including online and in-person spaces, the pre-event online information session, the datathon event, any social events and all communication, including that via email or social media associated with the event. Unacceptable behaviour includes, but is not limited to:
+
+* Harassment, including verbal comments relating to gender, sexual orientation, disability, race, ethnicity, religion, age, national origin, gender identity or expression, or physical appearance.
+* Inappropriate and/or unwanted physical contact.
+* Unwelcome sexual attention, which can include inappropriate questions, jokes, or comments of a sexual nature or repeatedly asking for dates or contact information.
+* Unwanted photography or recording.
+* Discriminatory or sexual images in public spaces.
+* Sustained or wilful disruption of talks or other events.
+
+To report violations of this Code of Conduct, alert a member of the Response Team (names and contact details listed below). Reports may be made by people subject to, or witnesses of, unacceptable behaviour.
+
+::: {.callout-note}
+## Code of Conduct Response Team
+
+* Dr Sanja Lujic, Lecturer, Centre for Big Data Research in Health, UNSW Sydney <a href="mailto:s.lujic@unsw.edu.au">s.lujic@unsw.edu.au</a>.
+* Dr Oscar Perez Concha, Senior Lecturer, Centre for Big Data Research in Health, UNSW Sydney <a href="mailto:o.perezconcha@unsw.edu.au">o.perezconcha@unsw.edu.au</a>.
+
+:::
+
+If an individual participates in unacceptable behaviour, the Response Team may take lawful action that they deem appropriate, including asking the individual to stop or removal of the individual from the event. Reports of unacceptable behaviour may be communicated to UNSW Sydney.
+
+All efforts will be made to protect the anonymity of persons reporting violations. Persons reporting violations of the Code may request that their report remain confidential and that no further action be taken. However, if the Code of Conduct Response Team deems it necessary for the safety of event attendees, action will be taken, including referral of the report to UNSW Sydney.
+
+This Code of Conduct is designed to ensure that this event can be enjoyed by all participants. We hope you have an inspiring and enjoyable time.
+
+::: {.callout-note}
+
+This code of conduct has been adapted from the Statistical Society of Australia (SSA) Code of Conduct [template](https://www.statsoc.org.au/CodeOfConductTemplate/). 
+
+UNSW Sydney students should also be aware of the [Student Code of Conduct](https://www.unsw.edu.au/planning-assurance/conduct-integrity/conduct-unsw/student-conduct-integrity/student-code-conduct) in particular the sections pertaining to plagiarism. If you use code or other intellectual property as part of your datathon submission, the earlier work should be clearly referenced, just as you would do for an assessment.
+
+:::
+

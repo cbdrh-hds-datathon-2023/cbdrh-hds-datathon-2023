@@ -1,0 +1,37 @@
+---
+title: "Schedule"
+---
+
+::: {.callout-note}
+## Note
+
+The schedule is subject to change. A Microsoft Teams Meeting link will be circulated in advance of both sessions.
+:::
+
+
+## Online information session (Online only)
+
+*Friday, May 19, 2023: 15:00 - 17:00 AEST*
+
+|     |     |
+|--|-----|
+| 15:00 - 15:10    | Welcome and introductions (Dr Oscar Perez Concha, CBDRH)     |
+| 15:10 - 15:35    | The Health Gym and the HIV Medications dataset (Dr Nic Kuo, CBDRH) |
+| 15:35 - 16:00    | HIV Medications research in practice (Dr Juliana de Oliveira Costa, School of Population Health)  |
+| 16:00 - 16:15    | Datathon rules and plan for the day (Dr Oscar Perez Concha, CBDRH) |
+| 16:15 - 17:00    | Questions  |
+
+## Datathon (Hybrid)
+
+*Friday, May 26, 2023: 08:00 - 17:00 AEST*
+
+|     |     |
+|--|-----|
+| 08:00 - 08:30    | Registration     |
+| 08:30 - 09:00    | Welcome and introduction to domain experts |
+| 09:00 - 12:00    | Teams work on project |
+| 12:00 - 12:30    | Lunch |
+| 12:30 - 15:00    | Teams work on project |
+| 15:00 - 16:15    | Presentations (7 mins presentation + 3 mins questions per team) |
+| 16:15 - 16:45    | Jury deliberation and drinks reception |
+| 16:45 - 17:00    | Awards and closing |
