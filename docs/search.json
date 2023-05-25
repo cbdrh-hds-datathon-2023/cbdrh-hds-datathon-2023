@@ -123,6 +123,13 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "You will be analysing the Antiretroviral Therapy in HIV dataset from HealthGym.ai.\nThe Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.\nThe Anteretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV.\nYou can learn more and download the dataset at healthgym.ai/antiviral-hiv.\nYou are welcome to start exploring the data straightaway! The presentations at the online information session will help you understand the data further and provide inspiration for intersting research questions that could be addressed with the data."
+    "text": "You will be analysing the Antiretroviral Therapy in HIV dataset from HealthGym.ai.\nThe Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.\nThe Antiretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV.\nYou can learn more about the dataset at healthgym.ai/antiviral-hiv and read about the data generation process in this paper."
+  },
+  {
+    "objectID": "data.html#data-versions-and-download-links",
+    "href": "data.html#data-versions-and-download-links",
+    "title": "Data",
+    "section": "Data versions and download links",
+    "text": "Data versions and download links\nPlease note there are two versions of the Antiretroviral Therapy in HIV dataset. For the datathon we will be using Version 2. The Health Gym v2.0 Synthetic Antiretroviral Therapy (ART) for HIV Dataset can be downloaded here (figshare.com)\nVersion 1 of the dataset is currently posted on HealthGym.ai. The variable names and data structure are similar so if you have done some initial exploration using Version 1 you can easily transfer to Version 2."
   }
 ]
