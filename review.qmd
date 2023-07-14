@@ -1,0 +1,151 @@
+---
+title: ""
+filters:
+   - lightbox
+lightbox: auto
+link-external-icon: false
+---
+
+::: column-screen-inset
+![Analysing the Antiretroviral Therapy in HIV dataset](images/Lo%20Res/Datathon_UNSW_Credit_CassandraHannagan-42.jpg)
+:::
+
+## Key figures
+
+<div style="font-size:1.2em;">
+
+-   **22** Students 👩‍🎓
+
+-   **Six** Teams 🤝
+  
+-   **Three** Content experts 💊
+
+-   **Two** Government partners 🏥
+
+-   **One** winning team 🌟
+
+</div>
+
+## Overview of the event
+
+
+The first CBDRH Health Data Science datathon took place on Friday 26th July 2023. This event saw the participation of 22 HDS students working in six teams, five on campus and one hybrid online/on-campus team. The event focused on the [Antiretroviral Therapy in HIV dataset](data.qmd), and teams were challenged to pose a research question and develop a solution using their health context expertise and analytic skills.
+
+![Health Data Science students in action 💛 <br> <span style="font-size:0.8em">Credit: [Cassandra Hannagan](https://www.cassandrahannagan.com/) </span>](images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-81.jpg)
+
+Five experts were on hand to guide the teams, aiding them in crafting and executing their research questions and proposed solutions effectively. This included applied researchers with content expertise in HIV medications and machine learning, and Health Informaticians from NSW Health Sydney Local Health District
+
+![ Consulting with machine learning experts. 💛 <br> <span style="font-size:0.8em">Credit: [Cassandra Hannagan](https://www.cassandrahannagan.com/) </span>](images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-53.jpg) 
+
+
+The datathon wasn't just about coding and data; it was also about enjoyment and camaraderie. The teams enjoyed good food and had loads of fun. The presentations from all teams were highly engaging, with everyone putting into practice the technical coding skills and health context expertise from the HDS program.
+
+
+![Students presenting their work 💛 <br> <span style="font-size:0.8em">Credit: [Cassandra Hannagan](https://www.cassandrahannagan.com/) </span>](images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-170.jpg)
+
+
+The day culminated with a prize ceremony to acknowledge the hard work from all of the teams, and of course announce the winners! The winning team's breakthrough came from using neural networks to predict the success of current ART drug combinations for patients with HIV. The second-place team used survival analysis to answer the question, "What drug combination is most effective at achieving viral suppression?" The third team investigated the impact of Dolutegravir (DTG) as a third agent drug on time to viral suppression among active HIV patients under antiretroviral therapy (ART).
+
+This event truly blended learning, collaboration, and fun, capturing the true essence of data science in an enjoyable and rewarding environment.
+
+***
+
+## The data
+
+The [Antiretroviral Therapy in HIV dataset](data.qmd) comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV. This is a synthetic dataset that has been developed using Generative Adversarial Networks. This approach provides realistically complex data, allowing users to prototype, evaluate, and compare machine learning algorithms without the usual constraints of patient privacy. 
+
+![](images/cd4-over-time.gif)
+
+<div style="font-size: 0.8em">
+The ART HIV dataset included demographic details and longitudinal clinical data on drug combinations and CD4 counts for nearly 9,000 patients. Common baseline drug regimes included tenofovir disoproxil & emtricitabine [(FTC+TDF)]{style="color:#ED217C"} and abacavir & lamivudine [ (3TC+ABC) ]{style="color:#FFFD82"} Several of the teams choose to implement machine learning models to predict future CD4 outcomes based on previous values, demographics and treatment values.
+</div>
+
+
+## What our students said
+
+::: {.grid}
+
+::: {.g-col-6}
+
+<div style="color:#289a92; font-style: italic; font-size: 1.2em; text-align: right; opacity: 0.6;">Based on your experience at the datathon, would you recommend it to other students?</div>
+
+:::
+
+::: {.g-col-1}
+
+:::
+
+::: {.g-col-5}
+<div style="color:#289a92;">
+
+<div style="font-size:4em; margin:-20px; padding:0px;">100%</div> <div style="font-size:1em; margin:0px">DEFINATELY</div>
+
+</div>
+
+:::
+
+
+
+:::
+<br>
+
+::: {.grid}
+
+::: {.g-col-9}
+>I loved getting to work with really complicated data based on real situations, loved the info sharing sessions and the support given.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+> The open-ended nature of the competition meant that we got to see different uses for the dataset. I got to meet participants from other faculties.
+
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-1}
+
+:::
+
+::: {.g-col-8}
+> The actual competition day itself was very rewarding and also very fun!
+
+:::
+
+::: {.g-col-2}
+
+:::
+
+:::
+
+
+
+## Picture gallery
+
+Explore the images from the day below. Credit for all images to [Cassandra Hannagan](https://www.cassandrahannagan.com/). 
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));grid-gap: .5em; inline-size: 100%;"}
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+nPics <- length(list.files(here::here("images/Lo Res")))
+
+for (i in 1:nPics) {
+  cat("![](images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-", i, ".jpg){group='my-gallery'}\n\n", sep='')
+}
+```
+:::

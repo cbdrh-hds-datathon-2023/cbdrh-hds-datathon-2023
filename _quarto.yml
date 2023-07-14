@@ -21,6 +21,9 @@ website:
       - text: Code of conduct
         icon: heart
         href: code-of-conduct.qmd
+      - text: 2023 Highlights
+        icon: balloon-heart-fill
+        href: review.qmd
     right:
       - text: Information for sponsors
         icon: info-circle

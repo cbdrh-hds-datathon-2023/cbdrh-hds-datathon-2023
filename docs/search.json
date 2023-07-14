@@ -21,6 +21,48 @@
     "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
   },
   {
+    "objectID": "review.html",
+    "href": "review.html",
+    "title": "",
+    "section": "",
+    "text": "Analysing the Antiretroviral Therapy in HIV dataset"
+  },
+  {
+    "objectID": "review.html#key-figures",
+    "href": "review.html#key-figures",
+    "title": "",
+    "section": "Key figures",
+    "text": "Key figures\n\n\n22 Students 👩‍🎓\nSix Teams 🤝\nThree Content experts 💊\nTwo Government partners 🏥\nOne winning team 🌟"
+  },
+  {
+    "objectID": "review.html#overview-of-the-event",
+    "href": "review.html#overview-of-the-event",
+    "title": "",
+    "section": "Overview of the event",
+    "text": "Overview of the event\nThe first CBDRH Health Data Science datathon took place on Friday 26th July 2023. This event saw the participation of 22 HDS students working in six teams, five on campus and one hybrid online/on-campus team. The event focused on the Antiretroviral Therapy in HIV dataset, and teams were challenged to pose a research question and develop a solution using their health context expertise and analytic skills.\n\n\n\nHealth Data Science students in action 💛  Credit: Cassandra Hannagan \n\n\nFive experts were on hand to guide the teams, aiding them in crafting and executing their research questions and proposed solutions effectively. This included applied researchers with content expertise in HIV medications and machine learning, and Health Informaticians from NSW Health Sydney Local Health District\n\n\n\nConsulting with machine learning experts. 💛  Credit: Cassandra Hannagan \n\n\nThe datathon wasn’t just about coding and data; it was also about enjoyment and camaraderie. The teams enjoyed good food and had loads of fun. The presentations from all teams were highly engaging, with everyone putting into practice the technical coding skills and health context expertise from the HDS program.\n\n\n\nStudents presenting their work 💛  Credit: Cassandra Hannagan \n\n\nThe day culminated with a prize ceremony to acknowledge the hard work from all of the teams, and of course announce the winners! The winning team’s breakthrough came from using neural networks to predict the success of current ART drug combinations for patients with HIV. The second-place team used survival analysis to answer the question, “What drug combination is most effective at achieving viral suppression?” The third team investigated the impact of Dolutegravir (DTG) as a third agent drug on time to viral suppression among active HIV patients under antiretroviral therapy (ART).\nThis event truly blended learning, collaboration, and fun, capturing the true essence of data science in an enjoyable and rewarding environment."
+  },
+  {
+    "objectID": "review.html#the-data",
+    "href": "review.html#the-data",
+    "title": "",
+    "section": "The data",
+    "text": "The data\nThe Antiretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV. This is a synthetic dataset that has been developed using Generative Adversarial Networks. This approach provides realistically complex data, allowing users to prototype, evaluate, and compare machine learning algorithms without the usual constraints of patient privacy.\n\n\n\n\n\n\nThe ART HIV dataset included demographic details and longitudinal clinical data on drug combinations and CD4 counts for nearly 9,000 patients. Common baseline drug regimes included tenofovir disoproxil & emtricitabine (FTC+TDF) and abacavir & lamivudine (3TC+ABC) Several of the teams choose to implement machine learning models to predict future CD4 outcomes based on previous values, demographics and treatment values."
+  },
+  {
+    "objectID": "review.html#what-our-students-said",
+    "href": "review.html#what-our-students-said",
+    "title": "",
+    "section": "What our students said",
+    "text": "What our students said\n\n\n\nBased on your experience at the datathon, would you recommend it to other students?\n\n\n\n\n\n\n\n\n100%\n\n\nDEFINATELY\n\n\n\n\n\n\n\n\nI loved getting to work with really complicated data based on real situations, loved the info sharing sessions and the support given.\n\n\n\n\n\n\n\n\n\n\n\n\nThe open-ended nature of the competition meant that we got to see different uses for the dataset. I got to meet participants from other faculties.\n\n\n\n\n\n\n\n\n\nThe actual competition day itself was very rewarding and also very fun!"
+  },
+  {
+    "objectID": "review.html#picture-gallery",
+    "href": "review.html#picture-gallery",
+    "title": "",
+    "section": "Picture gallery",
+    "text": "Picture gallery\nExplore the images from the day below. Credit for all images to Cassandra Hannagan."
+  },
+  {
     "objectID": "judging-criteria.html",
     "href": "judging-criteria.html",
     "title": "Judging criteria",

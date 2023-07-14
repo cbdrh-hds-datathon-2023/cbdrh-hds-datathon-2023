@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title></title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"><i class="bi bi-house" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"><i class="bi bi-clock" role="img">
+</i> 
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"><i class="bi bi-code" role="img">
+</i> 
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./judging-criteria.html"><i class="bi bi-trophy" role="img">
+</i> 
+ <span class="menu-text">Judging Criteria</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./code-of-conduct.html"><i class="bi bi-heart" role="img">
+</i> 
+ <span class="menu-text">Code of conduct</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./review.html" aria-current="page"><i class="bi bi-balloon-heart-fill" role="img">
+</i> 
+ <span class="menu-text">2023 Highlights</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./sponsor-info.html"><i class="bi bi-info-circle" role="img">
+</i> 
+ <span class="menu-text">Information for sponsors</span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-figures" id="toc-key-figures" class="nav-link active" data-scroll-target="#key-figures">Key figures</a></li>
+  <li><a href="#overview-of-the-event" id="toc-overview-of-the-event" class="nav-link" data-scroll-target="#overview-of-the-event">Overview of the event</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The data</a></li>
+  <li><a href="#what-our-students-said" id="toc-what-our-students-said" class="nav-link" data-scroll-target="#what-our-students-said">What our students said</a></li>
+  <li><a href="#picture-gallery" id="toc-picture-gallery" class="nav-link" data-scroll-target="#picture-gallery">Picture gallery</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+
+<div class="column-screen-inset">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-42.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Analysing the Antiretroviral Therapy in HIV dataset"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-42.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Analysing the Antiretroviral Therapy in HIV dataset</figcaption><p></p>
+</figure>
+</div>
+</div>
+<section id="key-figures" class="level2">
+<h2 class="anchored" data-anchor-id="key-figures">Key figures</h2>
+<div style="font-size:1.2em;">
+<ul>
+<li><p><strong>22</strong> Students 👩‍🎓</p></li>
+<li><p><strong>Six</strong> Teams 🤝</p></li>
+<li><p><strong>Three</strong> Content experts 💊</p></li>
+<li><p><strong>Two</strong> Government partners 🏥</p></li>
+<li><p><strong>One</strong> winning team 🌟</p></li>
+</ul>
+</div>
+</section>
+<section id="overview-of-the-event" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-the-event">Overview of the event</h2>
+<p>The first CBDRH Health Data Science datathon took place on Friday 26th July 2023. This event saw the participation of 22 HDS students working in six teams, five on campus and one hybrid online/on-campus team. The event focused on the <a href="./data.html">Antiretroviral Therapy in HIV dataset</a>, and teams were challenged to pose a research question and develop a solution using their health context expertise and analytic skills.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-81.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Health Data Science students in action 💛   Credit: Cassandra Hannagan "><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-81.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Health Data Science students in action 💛 <br> <span style="font-size:0.8em">Credit: <a href="https://www.cassandrahannagan.com/">Cassandra Hannagan</a> </span></figcaption><p></p>
+</figure>
+</div>
+<p>Five experts were on hand to guide the teams, aiding them in crafting and executing their research questions and proposed solutions effectively. This included applied researchers with content expertise in HIV medications and machine learning, and Health Informaticians from NSW Health Sydney Local Health District</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-53.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Consulting with machine learning experts. 💛   Credit: Cassandra Hannagan "><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-53.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Consulting with machine learning experts. 💛 <br> <span style="font-size:0.8em">Credit: <a href="https://www.cassandrahannagan.com/">Cassandra Hannagan</a> </span></figcaption><p></p>
+</figure>
+</div>
+<p>The datathon wasn’t just about coding and data; it was also about enjoyment and camaraderie. The teams enjoyed good food and had loads of fun. The presentations from all teams were highly engaging, with everyone putting into practice the technical coding skills and health context expertise from the HDS program.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-170.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Students presenting their work 💛   Credit: Cassandra Hannagan "><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-170.jpg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Students presenting their work 💛 <br> <span style="font-size:0.8em">Credit: <a href="https://www.cassandrahannagan.com/">Cassandra Hannagan</a> </span></figcaption><p></p>
+</figure>
+</div>
+<p>The day culminated with a prize ceremony to acknowledge the hard work from all of the teams, and of course announce the winners! The winning team’s breakthrough came from using neural networks to predict the success of current ART drug combinations for patients with HIV. The second-place team used survival analysis to answer the question, “What drug combination is most effective at achieving viral suppression?” The third team investigated the impact of Dolutegravir (DTG) as a third agent drug on time to viral suppression among active HIV patients under antiretroviral therapy (ART).</p>
+<p>This event truly blended learning, collaboration, and fun, capturing the true essence of data science in an enjoyable and rewarding environment.</p>
+<hr>
+</section>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>The <a href="./data.html">Antiretroviral Therapy in HIV dataset</a> comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV. This is a synthetic dataset that has been developed using Generative Adversarial Networks. This approach provides realistically complex data, allowing users to prototype, evaluate, and compare machine learning algorithms without the usual constraints of patient privacy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cd4-over-time.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/cd4-over-time.gif" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div style="font-size: 0.8em">
+<p>The ART HIV dataset included demographic details and longitudinal clinical data on drug combinations and CD4 counts for nearly 9,000 patients. Common baseline drug regimes included tenofovir disoproxil &amp; emtricitabine <span style="color:#ED217C">(FTC+TDF)</span> and abacavir &amp; lamivudine <span style="color:#FFFD82">(3TC+ABC)</span> Several of the teams choose to implement machine learning models to predict future CD4 outcomes based on previous values, demographics and treatment values.</p>
+</div>
+</section>
+<section id="what-our-students-said" class="level2">
+<h2 class="anchored" data-anchor-id="what-our-students-said">What our students said</h2>
+<div class="grid">
+<div class="g-col-6">
+<div style="color:#289a92; font-style: italic; font-size: 1.2em; text-align: right; opacity: 0.6;">
+Based on your experience at the datathon, would you recommend it to other students?
+</div>
+</div>
+<div class="g-col-1">
+
+</div>
+<div class="g-col-5">
+<div style="color:#289a92;">
+<div style="font-size:4em; margin:-20px; padding:0px;">
+100%
+</div>
+<div style="font-size:1em; margin:0px">
+DEFINATELY
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="grid">
+<div class="g-col-9">
+<blockquote class="blockquote">
+<p>I loved getting to work with really complicated data based on real situations, loved the info sharing sessions and the support given.</p>
+</blockquote>
+</div>
+<div class="g-col-3">
+
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+
+</div>
+<div class="g-col-9">
+<blockquote class="blockquote">
+<p>The open-ended nature of the competition meant that we got to see different uses for the dataset. I got to meet participants from other faculties.</p>
+</blockquote>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-1">
+
+</div>
+<div class="g-col-8">
+<blockquote class="blockquote">
+<p>The actual competition day itself was very rewarding and also very fun!</p>
+</blockquote>
+</div>
+<div class="g-col-2">
+
+</div>
+</div>
+</section>
+<section id="picture-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="picture-gallery">Picture gallery</h2>
+<p>Explore the images from the day below. Credit for all images to <a href="https://www.cassandrahannagan.com/">Cassandra Hannagan</a>.</p>
+<div style="display: grid;grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));grid-gap: .5em; inline-size: 100%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-1.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-1.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-2.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-2.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-3.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-3.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-4.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-4.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-5.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-5.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-6.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-6.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-7.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-7.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-8.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-8.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-9.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-9.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-10.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-10.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-11.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-11.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-12.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-12.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-13.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-13.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-14.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-14.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-15.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-15.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-16.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-16.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-17.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-17.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-18.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-18.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-19.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-19.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-20.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-20.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-21.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-21.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-22.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-22.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-23.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-23.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-24.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-24.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-25.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-25.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-26.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-26.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-27.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-27.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-28.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-28.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-29.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-29.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-30.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-30.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-31.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-31.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-32.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-32.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-33.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-33.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-34.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-34.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-35.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-35.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-36.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-36.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-37.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-37.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-38.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-38.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-39.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-39.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-40.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-40.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-41.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-41.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-42.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-42.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-43.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-43.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-44.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-44.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-45.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-45.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-46.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-46.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-47.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-47.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-48.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-48.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-49.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-49.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-50.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-50.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-51.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-51.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-52.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-52.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-53.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-53.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-54.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-54.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-55.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-55.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-56.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-56.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-57.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-57.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-58.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-58.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-59.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-59.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-60.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-60.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-61.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-61.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-62.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-62.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-63.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-63.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-64.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-64.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-65.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-65.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-66.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-66.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-67.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-67.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-68.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-68.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-69.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-69.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-70.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-70.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-71.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-71.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-72.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-72.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-73.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-73.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-74.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-74.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-75.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-75.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-76.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-76.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-77.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-77.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-78.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-78.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-79.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-79.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-80.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-80.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-81.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-81.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-82.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-82.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-83.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-83.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-84.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-84.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-85.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-85.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-86.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-86.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-87.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-87.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-88.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-88.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-89.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-89.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-90.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-90.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-91.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-91.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-92.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-92.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-93.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-93.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-94.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-94.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-95.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-95.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-96.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-96.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-97.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-97.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-98.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-98.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-99.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-99.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-100.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-100.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-101.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-101.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-102.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-102.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-103.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-103.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-104.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-104.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-105.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-105.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-106.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-106.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-107.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-107.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-108.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-108.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-109.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-109.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-110.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-110.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-111.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-111.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-112.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-112.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-113.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-113.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-114.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-114.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-115.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-115.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-116.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-116.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-117.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-117.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-118.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-118.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-119.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-119.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-120.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-120.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-121.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-121.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-122.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-122.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-123.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-123.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-124.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-124.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-125.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-125.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-126.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-126.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-127.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-127.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-128.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-128.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-129.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-129.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-130.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-130.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-131.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-131.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-132.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-132.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-133.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-133.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-134.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-134.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-135.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-135.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-136.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-136.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-137.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-137.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-138.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-138.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-139.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-139.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-140.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-140.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-141.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-141.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-142.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-142.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-143.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-143.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-144.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-144.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-145.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-145.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-146.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-146.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-147.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-147.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-148.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-148.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-149.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-149.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-150.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-150.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-151.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-151.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-152.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-152.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-153.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-153.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-154.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-154.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-155.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-155.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-156.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-156.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-157.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-157.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-158.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-158.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-159.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-159.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-160.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-160.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-161.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-161.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-162.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-162.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-163.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-163.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-164.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-164.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-165.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-165.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-166.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-166.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-167.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-167.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-168.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-168.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-169.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-169.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-170.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-170.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-171.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-171.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-172.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-172.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-173.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-173.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-174.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-174.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-175.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-175.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-176.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-176.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-177.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-177.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-178.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-178.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-179.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/Lo Res/Datathon_UNSW_Credit_CassandraHannagan-179.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">© UNSW 2023</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"loop":true,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});</script>
+
+
+
+</body></html>
