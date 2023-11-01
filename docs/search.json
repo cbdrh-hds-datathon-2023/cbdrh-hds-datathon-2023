@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "You will be analysing the Antiretroviral Therapy in HIV dataset from HealthGym.ai.\nThe Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.\nThe Antiretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV.\nYou can learn more about the dataset at healthgym.ai/antiviral-hiv and read about the data generation process in this paper."
+  },
+  {
+    "objectID": "data.html#data-versions-and-download-links",
+    "href": "data.html#data-versions-and-download-links",
+    "title": "Data",
+    "section": "Data versions and download links",
+    "text": "Data versions and download links\nPlease note there are two versions of the Antiretroviral Therapy in HIV dataset. For the datathon we will be using Version 2. The Health Gym v2.0 Synthetic Antiretroviral Therapy (ART) for HIV Dataset can be downloaded here (figshare.com)\nVersion 1 of the dataset is currently posted on HealthGym.ai. The variable names and data structure are similar so if you have done some initial exploration using Version 1 you can easily transfer to Version 2."
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "Code of conduct",
+    "section": "",
+    "text": "The organisers of the CBDRH Datathon are committed to providing a event that is welcoming and safe for all participants, is free from discrimination and harassment, and where all participants are treated with dignity and respect. Adherence to this Code of Conduct is a requirement for all event participants, and covers all aspects of the datathon, including online and in-person spaces, the pre-event online information session, the datathon event, any social events and all communication, including that via email or social media associated with the event. Unacceptable behaviour includes, but is not limited to:\n\nHarassment, including verbal comments relating to gender, sexual orientation, disability, race, ethnicity, religion, age, national origin, gender identity or expression, or physical appearance.\nInappropriate and/or unwanted physical contact.\nUnwelcome sexual attention, which can include inappropriate questions, jokes, or comments of a sexual nature or repeatedly asking for dates or contact information.\nUnwanted photography or recording.\nDiscriminatory or sexual images in public spaces.\nSustained or wilful disruption of talks or other events.\n\nTo report violations of this Code of Conduct, alert a member of the Response Team (names and contact details listed below). Reports may be made by people subject to, or witnesses of, unacceptable behaviour.\n\n\n\n\n\n\nCode of Conduct Response Team\n\n\n\n\nDr Sanja Lujic, Lecturer, Centre for Big Data Research in Health, UNSW Sydney s.lujic@unsw.edu.au.\nDr Oscar Perez Concha, Senior Lecturer, Centre for Big Data Research in Health, UNSW Sydney o.perezconcha@unsw.edu.au.\n\n\n\nIf an individual participates in unacceptable behaviour, the Response Team may take lawful action that they deem appropriate, including asking the individual to stop or removal of the individual from the event. Reports of unacceptable behaviour may be communicated to UNSW Sydney.\nAll efforts will be made to protect the anonymity of persons reporting violations. Persons reporting violations of the Code may request that their report remain confidential and that no further action be taken. However, if the Code of Conduct Response Team deems it necessary for the safety of event attendees, action will be taken, including referral of the report to UNSW Sydney.\nThis Code of Conduct is designed to ensure that this event can be enjoyed by all participants. We hope you have an inspiring and enjoyable time.\n\n\n\n\n\n\nNote\n\n\n\nThis code of conduct has been adapted from the Statistical Society of Australia (SSA) Code of Conduct template.\nUNSW Sydney students should also be aware of the Student Code of Conduct in particular the sections pertaining to plagiarism. If you use code or other intellectual property as part of your datathon submission, the earlier work should be clearly referenced, just as you would do for an assessment."
+  },
+  {
+    "objectID": "judging-criteria.html",
+    "href": "judging-criteria.html",
+    "title": "Judging criteria",
+    "section": "",
+    "text": "Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:\n\nResearch Question\nAnalysis\nCommunicating results\n\nThe table below breaks down some of the things you should consider for each domain.\n\n\n\n\n\n\n\n\nDomain\nWeight\nThings to consider\n\n\n\n\nResearch question\n⅓\n\nClearly expressed and focused\nOperationalisable\nAchievable in the available time\n\n\n\nAnalysis\n⅓\n\nData cleaning and preparation\nChoice and implementation of analytic method\nCode and reproducibility\n\n\n\nCommunicating results\n⅓\n\nPresentation of results (tables/visualisations)\nOral presentation\nUnderstanding translation potential"
+  },
+  {
     "objectID": "sponsor-info.html#about",
     "href": "sponsor-info.html#about",
     "title": "Information for sponsors",
@@ -39,7 +67,7 @@
     "href": "review.html#overview-of-the-event",
     "title": "",
     "section": "Overview of the event",
-    "text": "Overview of the event\nThe first CBDRH Health Data Science datathon took place on Friday 26th July 2023. This event saw the participation of 22 HDS students working in six teams, five on campus and one hybrid online/on-campus team. The event focused on the Antiretroviral Therapy in HIV dataset, and teams were challenged to pose a research question and develop a solution using their health context expertise and analytic skills.\n\n\n\nHealth Data Science students in action 💛  Credit: Cassandra Hannagan \n\n\nFive experts were on hand to guide the teams, aiding them in crafting and executing their research questions and proposed solutions effectively. This included applied researchers with content expertise in HIV medications and machine learning, and Health Informaticians from NSW Health Sydney Local Health District\n\n\n\nConsulting with machine learning experts. 💛  Credit: Cassandra Hannagan \n\n\nThe datathon wasn’t just about coding and data; it was also about enjoyment and camaraderie. The teams enjoyed good food and had loads of fun. The presentations from all teams were highly engaging, with everyone putting into practice the technical coding skills and health context expertise from the HDS program.\n\n\n\nStudents presenting their work 💛  Credit: Cassandra Hannagan \n\n\nThe day culminated with a prize ceremony to acknowledge the hard work from all of the teams, and of course announce the winners! The winning team’s breakthrough came from using neural networks to predict the success of current ART drug combinations for patients with HIV. The second-place team used survival analysis to answer the question, “What drug combination is most effective at achieving viral suppression?” The third team investigated the impact of Dolutegravir (DTG) as a third agent drug on time to viral suppression among active HIV patients under antiretroviral therapy (ART).\nThis event truly blended learning, collaboration, and fun, capturing the true essence of data science in an enjoyable and rewarding environment."
+    "text": "Overview of the event\nThe first CBDRH Health Data Science datathon took place on Friday 26th May 2023. This event saw the participation of 22 HDS students working in six teams, five on campus and one hybrid online/on-campus team. The event focused on the Antiretroviral Therapy in HIV dataset, and teams were challenged to pose a research question and develop a solution using their health context expertise and analytic skills.\n\n\n\nHealth Data Science students in action 💛  Credit: Cassandra Hannagan \n\n\nFive experts were on hand to guide the teams, aiding them in crafting and executing their research questions and proposed solutions effectively. This included applied researchers with content expertise in HIV medications and machine learning, and Health Informaticians from NSW Health Sydney Local Health District\n\n\n\nConsulting with machine learning experts. 💛  Credit: Cassandra Hannagan \n\n\nThe datathon wasn’t just about coding and data; it was also about enjoyment and camaraderie. The teams enjoyed good food and had loads of fun. The presentations from all teams were highly engaging, with everyone putting into practice the technical coding skills and health context expertise from the HDS program.\n\n\n\nStudents presenting their work 💛  Credit: Cassandra Hannagan \n\n\nThe day culminated with a prize ceremony to acknowledge the hard work from all of the teams, and of course announce the winners! The winning team’s breakthrough came from using neural networks to predict the success of current ART drug combinations for patients with HIV. The second-place team used survival analysis to answer the question, “What drug combination is most effective at achieving viral suppression?” The third team investigated the impact of Dolutegravir (DTG) as a third agent drug on time to viral suppression among active HIV patients under antiretroviral therapy (ART).\nThis event truly blended learning, collaboration, and fun, capturing the true essence of data science in an enjoyable and rewarding environment."
   },
   {
     "objectID": "review.html#the-data",
@@ -61,13 +89,6 @@
     "title": "",
     "section": "Picture gallery",
     "text": "Picture gallery\nExplore the images from the day below. Credit for all images to Cassandra Hannagan."
-  },
-  {
-    "objectID": "judging-criteria.html",
-    "href": "judging-criteria.html",
-    "title": "Judging criteria",
-    "section": "",
-    "text": "Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:\n\nResearch Question\nAnalysis\nCommunicating results\n\nThe table below breaks down some of the things you should consider for each domain.\n\n\n\n\n\n\n\n\nDomain\nWeight\nThings to consider\n\n\n\n\nResearch question\n⅓\n\nClearly expressed and focused\nOperationalisable\nAchievable in the available time\n\n\n\nAnalysis\n⅓\n\nData cleaning and preparation\nChoice and implementation of analytic method\nCode and reproducibility\n\n\n\nCommunicating results\n⅓\n\nPresentation of results (tables/visualisations)\nOral presentation\nUnderstanding translation potential"
   },
   {
     "objectID": "index.html#what-is-it",
@@ -133,13 +154,6 @@
     "text": "Contact\nFor questions, information or accessibility queries please contact Dr Oscar Perez Concha. Accessibilty requirements can also be noted in the EOI form.\n\n\nMenú del día\n\n\nTo be confirmed"
   },
   {
-    "objectID": "code-of-conduct.html",
-    "href": "code-of-conduct.html",
-    "title": "Code of conduct",
-    "section": "",
-    "text": "The organisers of the CBDRH Datathon are committed to providing a event that is welcoming and safe for all participants, is free from discrimination and harassment, and where all participants are treated with dignity and respect. Adherence to this Code of Conduct is a requirement for all event participants, and covers all aspects of the datathon, including online and in-person spaces, the pre-event online information session, the datathon event, any social events and all communication, including that via email or social media associated with the event. Unacceptable behaviour includes, but is not limited to:\n\nHarassment, including verbal comments relating to gender, sexual orientation, disability, race, ethnicity, religion, age, national origin, gender identity or expression, or physical appearance.\nInappropriate and/or unwanted physical contact.\nUnwelcome sexual attention, which can include inappropriate questions, jokes, or comments of a sexual nature or repeatedly asking for dates or contact information.\nUnwanted photography or recording.\nDiscriminatory or sexual images in public spaces.\nSustained or wilful disruption of talks or other events.\n\nTo report violations of this Code of Conduct, alert a member of the Response Team (names and contact details listed below). Reports may be made by people subject to, or witnesses of, unacceptable behaviour.\n\n\n\n\n\n\nCode of Conduct Response Team\n\n\n\n\nDr Sanja Lujic, Lecturer, Centre for Big Data Research in Health, UNSW Sydney s.lujic@unsw.edu.au.\nDr Oscar Perez Concha, Senior Lecturer, Centre for Big Data Research in Health, UNSW Sydney o.perezconcha@unsw.edu.au.\n\n\n\nIf an individual participates in unacceptable behaviour, the Response Team may take lawful action that they deem appropriate, including asking the individual to stop or removal of the individual from the event. Reports of unacceptable behaviour may be communicated to UNSW Sydney.\nAll efforts will be made to protect the anonymity of persons reporting violations. Persons reporting violations of the Code may request that their report remain confidential and that no further action be taken. However, if the Code of Conduct Response Team deems it necessary for the safety of event attendees, action will be taken, including referral of the report to UNSW Sydney.\nThis Code of Conduct is designed to ensure that this event can be enjoyed by all participants. We hope you have an inspiring and enjoyable time.\n\n\n\n\n\n\nNote\n\n\n\nThis code of conduct has been adapted from the Statistical Society of Australia (SSA) Code of Conduct template.\nUNSW Sydney students should also be aware of the Student Code of Conduct in particular the sections pertaining to plagiarism. If you use code or other intellectual property as part of your datathon submission, the earlier work should be clearly referenced, just as you would do for an assessment."
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -159,19 +173,5 @@
     "title": "Schedule",
     "section": "Datathon (Hybrid)",
     "text": "Datathon (Hybrid)\nFriday, May 26, 2023: 08:00 - 17:00 AEST\n\n\n\n\n\n\n\n08:00 - 08:30\nRegistration\n\n\n08:30 - 09:00\nWelcome and introduction to domain experts\n\n\n09:00 - 12:00\nTeams work on project\n\n\n12:00 - 12:30\nLunch\n\n\n12:30 - 15:00\nTeams work on project\n\n\n15:00 - 16:15\nPresentations (7 mins presentation + 3 mins questions per team)\n\n\n16:15 - 16:45\nJury deliberation and drinks reception\n\n\n16:45 - 17:00\nAwards and closing"
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
-    "section": "",
-    "text": "You will be analysing the Antiretroviral Therapy in HIV dataset from HealthGym.ai.\nThe Health Gym is a growing collection of highly realistic and freely-accessible synthetic medical datasets that has been developed to allow users to prototype, evaluate, and compare machine learning algorithms.\nThe Antiretroviral Therapy in HIV dataset comprises viral loads, CD4 counts, and drug regimen information for 8,916 patients with HIV.\nYou can learn more about the dataset at healthgym.ai/antiviral-hiv and read about the data generation process in this paper."
-  },
-  {
-    "objectID": "data.html#data-versions-and-download-links",
-    "href": "data.html#data-versions-and-download-links",
-    "title": "Data",
-    "section": "Data versions and download links",
-    "text": "Data versions and download links\nPlease note there are two versions of the Antiretroviral Therapy in HIV dataset. For the datathon we will be using Version 2. The Health Gym v2.0 Synthetic Antiretroviral Therapy (ART) for HIV Dataset can be downloaded here (figshare.com)\nVersion 1 of the dataset is currently posted on HealthGym.ai. The variable names and data structure are similar so if you have done some initial exploration using Version 1 you can easily transfer to Version 2."
   }
 ]
