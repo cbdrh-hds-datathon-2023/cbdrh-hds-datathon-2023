@@ -1,0 +1,11 @@
+---
+title: "Coding exercises"
+---
+
+::: column-page-inset
+
+```{=html}
+<iframe width="100%" height="700" src="https://cbdrh.shinyapps.io/learnrpy/" title="Quarto Documentation"></iframe>
+```
+
+:::

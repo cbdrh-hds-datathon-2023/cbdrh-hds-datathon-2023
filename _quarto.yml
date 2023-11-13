@@ -28,6 +28,9 @@ website:
       - text: Information for sponsors
         icon: info-circle
         href: sponsor-info.qmd
+      - text: Demo
+        icon: fire
+        href: demo.qmd
 
   page-footer:
     center: © UNSW 2023

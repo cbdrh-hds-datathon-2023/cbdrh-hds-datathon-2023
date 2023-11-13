@@ -21,34 +21,6 @@
     "text": "The organisers of the CBDRH Datathon are committed to providing a event that is welcoming and safe for all participants, is free from discrimination and harassment, and where all participants are treated with dignity and respect. Adherence to this Code of Conduct is a requirement for all event participants, and covers all aspects of the datathon, including online and in-person spaces, the pre-event online information session, the datathon event, any social events and all communication, including that via email or social media associated with the event. Unacceptable behaviour includes, but is not limited to:\n\nHarassment, including verbal comments relating to gender, sexual orientation, disability, race, ethnicity, religion, age, national origin, gender identity or expression, or physical appearance.\nInappropriate and/or unwanted physical contact.\nUnwelcome sexual attention, which can include inappropriate questions, jokes, or comments of a sexual nature or repeatedly asking for dates or contact information.\nUnwanted photography or recording.\nDiscriminatory or sexual images in public spaces.\nSustained or wilful disruption of talks or other events.\n\nTo report violations of this Code of Conduct, alert a member of the Response Team (names and contact details listed below). Reports may be made by people subject to, or witnesses of, unacceptable behaviour.\n\n\n\n\n\n\nCode of Conduct Response Team\n\n\n\n\nDr Sanja Lujic, Lecturer, Centre for Big Data Research in Health, UNSW Sydney s.lujic@unsw.edu.au.\nDr Oscar Perez Concha, Senior Lecturer, Centre for Big Data Research in Health, UNSW Sydney o.perezconcha@unsw.edu.au.\n\n\n\nIf an individual participates in unacceptable behaviour, the Response Team may take lawful action that they deem appropriate, including asking the individual to stop or removal of the individual from the event. Reports of unacceptable behaviour may be communicated to UNSW Sydney.\nAll efforts will be made to protect the anonymity of persons reporting violations. Persons reporting violations of the Code may request that their report remain confidential and that no further action be taken. However, if the Code of Conduct Response Team deems it necessary for the safety of event attendees, action will be taken, including referral of the report to UNSW Sydney.\nThis Code of Conduct is designed to ensure that this event can be enjoyed by all participants. We hope you have an inspiring and enjoyable time.\n\n\n\n\n\n\nNote\n\n\n\nThis code of conduct has been adapted from the Statistical Society of Australia (SSA) Code of Conduct template.\nUNSW Sydney students should also be aware of the Student Code of Conduct in particular the sections pertaining to plagiarism. If you use code or other intellectual property as part of your datathon submission, the earlier work should be clearly referenced, just as you would do for an assessment."
   },
   {
-    "objectID": "judging-criteria.html",
-    "href": "judging-criteria.html",
-    "title": "Judging criteria",
-    "section": "",
-    "text": "Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:\n\nResearch Question\nAnalysis\nCommunicating results\n\nThe table below breaks down some of the things you should consider for each domain.\n\n\n\n\n\n\n\n\nDomain\nWeight\nThings to consider\n\n\n\n\nResearch question\n⅓\n\nClearly expressed and focused\nOperationalisable\nAchievable in the available time\n\n\n\nAnalysis\n⅓\n\nData cleaning and preparation\nChoice and implementation of analytic method\nCode and reproducibility\n\n\n\nCommunicating results\n⅓\n\nPresentation of results (tables/visualisations)\nOral presentation\nUnderstanding translation potential"
-  },
-  {
-    "objectID": "sponsor-info.html#about",
-    "href": "sponsor-info.html#about",
-    "title": "Information for sponsors",
-    "section": "About",
-    "text": "About\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
-  },
-  {
-    "objectID": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
-    "href": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
-    "title": "Information for sponsors",
-    "section": "What are the advantages of being a sponsor?",
-    "text": "What are the advantages of being a sponsor?\nAs an event sponsor you can\n\nPropose research questions to be addressed\nProvide datasets to be analysed\nMeet and engage ambitious and talented students to undertake a research dissertation project at your organisation"
-  },
-  {
-    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
-    "href": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
-    "title": "Information for sponsors",
-    "section": "How do I become a sponsor for future events?",
-    "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
-  },
-  {
     "objectID": "review.html",
     "href": "review.html",
     "title": "",
@@ -89,6 +61,34 @@
     "title": "",
     "section": "Picture gallery",
     "text": "Picture gallery\nExplore the images from the day below. Credit for all images to Cassandra Hannagan."
+  },
+  {
+    "objectID": "sponsor-info.html#about",
+    "href": "sponsor-info.html#about",
+    "title": "Information for sponsors",
+    "section": "About",
+    "text": "About\nThe CBDRH Health Data Science datathon is an initiative launched under the Health 25 strategy The aim of the datathon is to facilitate cross-disciplinary engagement between UNSW Medicine & Health students, government, and industry."
+  },
+  {
+    "objectID": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
+    "href": "sponsor-info.html#what-are-the-advantages-of-being-a-sponsor",
+    "title": "Information for sponsors",
+    "section": "What are the advantages of being a sponsor?",
+    "text": "What are the advantages of being a sponsor?\nAs an event sponsor you can\n\nPropose research questions to be addressed\nProvide datasets to be analysed\nMeet and engage ambitious and talented students to undertake a research dissertation project at your organisation"
+  },
+  {
+    "objectID": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
+    "href": "sponsor-info.html#how-do-i-become-a-sponsor-for-future-events",
+    "title": "Information for sponsors",
+    "section": "How do I become a sponsor for future events?",
+    "text": "How do I become a sponsor for future events?\nWe are currently inviting expressions of interests for sponsors for our 2024 datathon. To find out more about becoming a sponsor please contact Dr Oscar Perez Concha."
+  },
+  {
+    "objectID": "judging-criteria.html",
+    "href": "judging-criteria.html",
+    "title": "Judging criteria",
+    "section": "",
+    "text": "Your submission will be judged on three criteria that reflect different aspects of a complete health data science analysis pipeline:\n\nResearch Question\nAnalysis\nCommunicating results\n\nThe table below breaks down some of the things you should consider for each domain.\n\n\n\n\n\n\n\n\nDomain\nWeight\nThings to consider\n\n\n\n\nResearch question\n⅓\n\nClearly expressed and focused\nOperationalisable\nAchievable in the available time\n\n\n\nAnalysis\n⅓\n\nData cleaning and preparation\nChoice and implementation of analytic method\nCode and reproducibility\n\n\n\nCommunicating results\n⅓\n\nPresentation of results (tables/visualisations)\nOral presentation\nUnderstanding translation potential"
   },
   {
     "objectID": "index.html#what-is-it",
